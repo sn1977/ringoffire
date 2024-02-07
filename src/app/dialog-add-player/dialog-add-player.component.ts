@@ -21,7 +21,7 @@ export class DialogAddPlayerComponent {
   name: string = '';
 
   constructor(
-      private dialogRef: MatDialogRef<DialogAddPlayerComponent>,
+      public dialogRef: MatDialogRef<DialogAddPlayerComponent>,
   ) {}
   onNoClick() {
     this.dialogRef.close();
