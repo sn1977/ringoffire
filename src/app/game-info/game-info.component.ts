@@ -42,6 +42,9 @@ export class GameInfoComponent {
 
     @Input() card: string = '';
 
+    // constructor() {
+    //     this.ngOnChanges();
+    // }
     ngOnChanges(): void {
         if (this.card) {
             console.log('Current card:', this.card);
